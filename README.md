@@ -44,7 +44,7 @@ JavaScript:
   </tr>
   <tr>
   <td align="center"><a href="https://github.com/lucasbarrosor"><img src="https://avatars.githubusercontent.com/u/104537041?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Barroso</b></sub></a></td>
-  <td align="center"><a href="https://github.com/Eloinxd"><img src="https://avatars.githubusercontent.com/u/97035235?v=4" width="100px;" alt=""/><br /><sub><b>Pedro</b></sub></a></td>
+  <td align="center"><a href="https://github.com/Eloinxd"><img src="https://avatars.githubusercontent.com/u/97035235?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Couto</b></sub></a></td>
   <td align="center"><a href="https://github.com/LucaNogz"><img src="https://avatars.githubusercontent.com/u/103080464?v=4" width="100px;" alt=""/><br /><sub><b>Luca Nogueira</b></sub></a></td>
   </tr>
  </table>
