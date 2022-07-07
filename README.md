@@ -11,10 +11,9 @@ Este projeto adota a seguinte estrutura de diretórios:
 - `docs`
   - `images`
 - `src`
-  - `assets`
+  - `images`
   - `scripts`
   - `styles`
-  - `vendor`
 
 ## docs
 Este diretório arquiva a documentação, sendo que o arquivo [`Projeto.md`](docs/Projeto.md) concentra toda a informação do projeto em questão.
