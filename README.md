@@ -5,6 +5,8 @@ Este é um repositório compartilhado pelos alunos da disciplina TIAW, que tem p
 
 <p align="center"> <img src="https://img.shields.io/github/stars/Juunaz-for-real/Projeto-Zimmie"/> <img src="https://img.shields.io/badge/Status-CONCLU%C3%8DDO-green"/> </p>
 
+O site se encontra hospedado via SandBox e pode ser acessado pelo seguinte link: https://gkugjf.csb.app/zimmie/html/index.html
+
 # Estrutura de Diretórios
 Este projeto adota a seguinte estrutura de diretórios:
 
@@ -17,7 +19,7 @@ Este projeto adota a seguinte estrutura de diretórios:
   - `styles`
 
 ## docs
-Este diretório arquiva a documentação, sendo que o arquivo [`Zimmie Documentação.pdf`](docs/Zimmie Documentação.pdf) concentra toda a informação disponível sobre o projeto, desde o planejamento até sua execução.
+Este diretório arquiva a documentação, sendo que o arquivo [`ZimmieDocumentação.pdf`](docs/Zimmie Documentação.pdf) concentra toda a informação disponível sobre o projeto, desde o planejamento até sua execução.
 
 ## html
 Este diretório abriga todos os documentos html utilizados na confecção do projeto.
