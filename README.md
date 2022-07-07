@@ -10,6 +10,7 @@ Este projeto adota a seguinte estrutura de diretórios:
 
 - `docs`
   - `images`
+- `html`
 - `src`
   - `images`
   - `scripts`
@@ -19,7 +20,10 @@ Este projeto adota a seguinte estrutura de diretórios:
 Este diretório arquiva a documentação, sendo que o arquivo [`Projeto.md`](docs/Projeto.md) concentra toda a informação do projeto em questão.
 
 - O diretório `images` é utilizado para armazenar as imagens que foram usadas na elaboração do projeto.
-  
+
+## html
+Este diretório abriga todos os arquivos html utilizados na confecção do projeto.
+
 ## src
 Este diretório armazena o código fonte do projeto e adota uma hierarquia
 básica de projetos Web simples, que utilizam as tecnologias HTML, CSS e
