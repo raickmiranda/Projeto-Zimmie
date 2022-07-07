@@ -3,7 +3,7 @@ Trabalho Interdisciplinar: Aplicações Web - PUC Minas
 
 Este é um repositório compartilhado pelos alunos da disciplina TIAW, que tem por objetivo arquitetar o Projeto Zimmie - um portal de recomendações de filmes/séries - como parte dos requisitos da matéria. Aqui você encontrará arquivos, imagens, orientações e afins que foram utilizadas na confecção do projeto.
 
-<p align="center"> <img src="https://img.shields.io/github/stars/Juunaz-for-real/Projeto-Zimmie"/> <img src="http://img.shields.io/static/v1?label=status&message=EM%20DESENVOLVIMENTO&color=GREEN&style=flat"/> </p>
+<p align="center"> <img src="https://img.shields.io/github/stars/Juunaz-for-real/Projeto-Zimmie"/> <img src="https://img.shields.io/badge/Status-CONCLU%C3%8DDO-green"/> </p>
 
 # Estrutura de Diretórios
 Este projeto adota a seguinte estrutura de diretórios:
@@ -17,24 +17,18 @@ Este projeto adota a seguinte estrutura de diretórios:
   - `styles`
 
 ## docs
-Este diretório arquiva a documentação, sendo que o arquivo [`Projeto.md`](docs/Projeto.md) concentra toda a informação do projeto em questão.
-
-- O diretório `images` é utilizado para armazenar as imagens que foram usadas na elaboração do projeto.
+Este diretório arquiva a documentação, sendo que o arquivo [`Zimmie Documentação.pdf`](docs/Zimmie Documentação.pdf) concentra toda a informação disponível sobre o projeto, desde o planejamento até sua execução.
 
 ## html
-Este diretório abriga todos os arquivos html utilizados na confecção do projeto.
+Este diretório abriga todos os documentos html utilizados na confecção do projeto.
 
 ## src
-Este diretório armazena o código fonte do projeto e adota uma hierarquia
-básica de projetos Web simples, que utilizam as tecnologias HTML, CSS e
-JavaScript:
+Este diretório armazena diferentes correspondências utilizadas para auxiliar o processo de desenvolvimento do HTML.
 
-- O diretório `assets` é utilizado para armazenar imagens, fontes e
-  outros recursos utilizados no projeto. 
-- O diretório `scripts` armazena os arquivos JavaScripts do projeto
-- O diretório `styles` é utilizado para os arquivos CSS
-- o diretório `vendor` é reservado para incluir bibliotecas e frameworks
-  utilizados no projeto como Bootstrap, jQuery, etc.
+- O diretório `images` é utilizado para armazenar todas as imagens utilizadas no projeto.
+- O diretório `script` armazena os arquivos JavaScript que foram criados.
+- O diretório `styles` é utilizado para guardar as folhas de estilização do projeto.
+- o diretório `vendor` é reservado para incluir (de forma informativa e referencial) bibliotecas e frameworks utilizados no projeto como Bootstrap, jQuery, etc.
   
 ## Autores
 
