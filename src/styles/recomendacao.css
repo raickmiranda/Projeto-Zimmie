@@ -1,0 +1,291 @@
+/* Variáveis de Estilização */
+:root {
+  --light: #fff;
+  --gray1: #b3b0b8;
+  --gray2: #7c7a80;
+  --black1: #121212;
+  --black2: #1e1f24;
+  --black3: #2b2c33;
+  --black4: #454652;
+  --primary: #c9184a;
+  --primaryPlusOne: #a4133c;
+  --primaryPlusTwo: #800f2f;
+}
+
+/*Estilização Principal*/
+.top-container {
+  max-width: 1170px;
+  margin: 0px auto;
+  margin-top: 80px;
+}
+
+.top-container h1 {
+  font-size: 22px;
+  color: var(--black1);
+  font-weight: 600;
+}
+
+.amigos-list {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amigo-component {
+  height: 216px;
+  width: 227px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.amigo-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.amigo-imagem {
+  width: 48px;
+  height: 48px;
+  background-color: var(--gray1);
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.amigo-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.amigo-info p {
+  font-size: 16px;
+  color: var(--black4);
+  font-weight: 500;
+}
+
+.amigo-info h3 {
+  font-size: 14px;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.amigo-mensagem {
+  font-size: 14px;
+  color: var(--gray2);
+  font-weight: 400;
+  margin: 12px 0px;
+}
+
+.amigo-stars-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+div.carregar-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+a.carregar-cta {
+  padding: 12px 48px;
+  border-radius: 8px;
+  background: #c9184a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 14px;
+  color: var(--light);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bottom-container {
+  margin-top: 80px;
+  background: linear-gradient(264.93deg,
+      #f8ecee 0.38%,
+      rgba(248, 236, 238, 0.35) 99.81%);
+}
+
+.bottom-inside {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 48px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bottom-inside h1 {
+  font-size: 16px;
+  color: var(--black1);
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container input {
+  border: solid 1px #e6e6e6;
+  outline: none;
+  background-color: var(--light);
+  font-size: 14px;
+  font-family: "Poppins";
+  padding: 8px 0px;
+  padding-left: 16px;
+  padding-right: 8px;
+  color: var(--gray2);
+  border-radius: 8px 0px 0px 8px;
+}
+
+.input-send {
+  background-color: var(--primary);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--light);
+  padding: 10px 14px;
+  border-radius: 0px 8px 8px 0px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.rating {
+  opacity: 1;
+  color: #ffc017;
+}
+
+.rating .active {
+  opacity: 1;
+  color: #ffc017;
+}
+
+/* Lista de Amigos */
+
+.amigo-list-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.amigo-container-2 {
+  width: 300px;
+  padding: 12px 14px;
+  background-color: var(--light);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.amigo-2-left-side {
+  font-size: 14px;
+  color: var(--black1);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.amigo-imagem-2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 16px;
+  background-color: var(--gray1);
+}
+
+.unfriend {
+  height: 21px;
+  width: 17px;
+  cursor: pointer;
+}
+
+/*Media Query*/
+@media (max-width: 1240px) {
+  .top-container {
+    max-width: 1170px;
+    margin: 0px auto;
+    margin-top: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .bottom-inside {
+    max-width: 1170px;
+    margin: 0px auto;
+    padding: 48px 24px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1048px) {
+  .amigos-list {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 888px) {
+  .amigos-list {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 770px) {
+  .bottom-inside {
+    max-width: 1170px;
+    margin: 0px auto;
+    padding: 48px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .input-container {
+    margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 630px) {
+  .amigos-list {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .amigo-component {
+    margin: 0px auto;
+    margin-bottom: 48px;
+    width: 100%;
+  }
+
+  .top-container h1 {
+    font-size: 18px;
+    color: var(--black1);
+    font-weight: 600;
+  }
+}
