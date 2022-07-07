@@ -30,7 +30,6 @@ Este diretório armazena diferentes correspondências utilizadas para auxiliar o
 - O diretório `images` é utilizado para armazenar todas as imagens utilizadas no projeto.
 - O diretório `script` armazena os arquivos JavaScript que foram criados.
 - O diretório `styles` é utilizado para guardar as folhas de estilização do projeto.
-- o diretório `vendor` é reservado para incluir (de forma informativa e referencial) bibliotecas e frameworks utilizados no projeto como Bootstrap, jQuery, etc.
   
 ## Autores
 
