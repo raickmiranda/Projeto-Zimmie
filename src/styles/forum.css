@@ -1,0 +1,172 @@
+/* Variáveis de Estilização */
+:root {
+    --light: #fff;
+    --gray1: #b3b0b8;
+    --gray2: #7c7a80;
+    --black1: #121212;
+    --black2: #1e1f24;
+    --black3: #2b2c33;
+    --black4: #454652;
+    --primary: #c9184a;
+    --primaryPlusOne: #a4133c;
+    --primaryPlusTwo: #800f2f;
+}
+
+/** Estilização de Elementos **/
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--black1);
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--primary);
+}
+
+h3 {
+    color: var(--black1);
+}
+
+span {
+    color: var(--primary);
+    font-weight: 800;
+}
+
+/** Título Principal**/
+.container {
+    max-width: 1000px;
+    margin: 1rem auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left-side p {
+    color: var(--gray2);
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+/**Estilização da barra de criação de tópicos**/
+.container-thread {
+    max-width: 450px;
+    margin: auto;
+}
+
+.thread {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    width: 90%;
+    border-radius: 2em;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.thread input {
+    border: solid 1px #cfcfcf;
+    border-radius: 2em;
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.thread button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 2em;
+}
+
+.thread i {
+    margin-top: 0.2em;
+}
+
+.thread button:hover {
+    background-color: var(--primary);
+    color: #fff;
+    transform: scale(.9);
+}
+
+.thread button:active {
+    transform: scale(1.2);
+}
+
+/** Estilização da divisão de Threads **/
+.threadsections {
+    padding: 2em;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+}
+
+ol li {
+    counter-increment: item;
+    padding: 2em;
+    background: linear-gradient(94.36deg,
+            rgba(255, 255, 255, 0.93) 4.03%,
+            rgba(255, 255, 255, 0.14) 101.52%);
+    box-shadow: 0px 1px 5px 3px rgba(187, 25, 71, 0.808);
+    border-radius: 2em;
+    margin: 2em;
+}
+
+ol li:before {
+    content: counter(item);
+    background: var(--primary);
+    border-radius: 100%;
+    color: var(--light);
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+}
+
+ol li:hover {
+    transform: scale(1.03);
+}
+
+.box-infos {
+    display: flex;
+    color: var(--gray2);
+    font-size: 12px;
+}
+
+/** Media Query **/
+@media (max-width: 760px) {
+    .container {
+        margin: 1em 1em;
+        display: flex;
+    }
+
+    .container-thread {
+        max-width: 100%;
+        margin: 1em;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+}
