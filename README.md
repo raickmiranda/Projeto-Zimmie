@@ -41,7 +41,7 @@ Este diretório armazena diferentes correspondências utilizadas para auxiliar o
   <td align="center"><a href="https://github.com/JoaoTeramatsu"><img src="https://avatars.githubusercontent.com/u/67931825?v=4" width="100px;" alt=""/><br /><sub><b>João Victor Teramatsu</b></sub></a></td>
   </tr>
   <tr>
-  <td align="center"><a href="https://github.com/MariaLenti"><img src="https://avatars.githubusercontent.com/u/104470380?v=4" width="100px;" alt=""/><br /><sub><b>Maria Luiza</b></sub></a></td>
+  <td align="center"><a href="https://github.com/marialuizalenti"><img src="https://avatars.githubusercontent.com/u/107136437?v=4" width="100px;" alt=""/><br /><sub><b>Maria Luiza</b></sub></a></td>
   <td align="center"><a href="https://github.com/Eloinxd"><img src="https://avatars.githubusercontent.com/u/97035235?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Couto</b></sub></a></td>
   <td align="center"><a href="https://github.com/Juunaz-for-real"><img src="https://avatars.githubusercontent.com/u/85577732?v=4" width="100px;" alt=""/><br /><sub><b>Raick Miranda</b></sub></a></td>
   </tr>
